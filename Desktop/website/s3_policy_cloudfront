@@ -1,0 +1,19 @@
+{
+  "Id": "Policy1741064734737",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1741064731932",
+      "Action": [
+        "s3:GetObject"
+      ],
+      "Effect": "Allow",
+      "Resource": "arn:aws:s3:::mybrosss673",
+      "Principal": {
+        "AWS": [
+          "Cloudfront"
+        ]
+      }
+    }
+  ]
+}
