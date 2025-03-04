@@ -1,0 +1,11 @@
+Hosting Ecommerce website using Cloud Front 
+
+Steps to perform :
+upload index.html and style.css file in s3 buckets.
+S3 bucket settings.under Permissions, locate the Block public access settings.
+Click Bucket Policy for cloudfront that specified in s3_policy_cloudfront
+Navigate to cloudfront and create distribution policy 
+under Origin sections perform below steps
+  Set Origin Domain Name to your S3 bucket.
+  Set Origin Access to Origin Access Control (OAC).
+  Click Create Control Setting and attach it to your S3 bucket.
